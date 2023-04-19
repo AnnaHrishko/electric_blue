@@ -1,0 +1,86 @@
+@media screen and (max-width: 991px) {
+  .service_wraper_inner.normal .service_row {
+    padding: 15px;
+  }
+  .service_wraper_inner.normal .service_row h3 {
+    font-size: 15px;
+  }
+  .service_wraper_inner.normal .service_row p {
+    font-size: 14px;
+  }
+  .service_wraper_inner .service_row {
+    padding: 15px;
+  }
+  .service_wraper_inner.first .service_row h2 {
+    font-size: 18px;
+  }
+  .service_wraper_inner.first .service_row p {
+    font-size: 18px;
+  }
+  .service_wraper_inner.first .service_row.second {
+    padding-left: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .service_wraper_inner {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: unset;
+  }
+  .service_wraper_inner .service_row {
+    padding: 15px;
+  }
+  .service_wraper_inner.first .service_row h2 {
+    font-size: 14px;
+  }
+  .service_wraper_inner.first .service_row p {
+    font-size: 14px;
+  }
+  .service_wraper_inner.first .service_row.second {
+    padding: 15px;
+    background-color: #000;
+  }
+  .service_wraper_inner.first .service_row.second p {
+    color: #fff;
+  }
+  .service_wraper_inner .service_row.first {
+    grid-column-start: unset;
+    grid-column-end: unset;
+    grid-row-start: unset;
+    grid-row-end: unset;
+  }
+  .service_wraper_inner .service_row.second {
+    grid-column-start: unset;
+    grid-column-end: unset;
+    grid-row-start: unset;
+    grid-row-end: unset;
+  }
+  .service_wraper_inner.third .service_row.second {
+    order: 1;
+  }
+  .service_wraper_inner.third .service_row.first {
+    order: 3;
+  }
+  .service_wraper_inner.third .service_row.third {
+    order: 2;
+  }
+  .service_wraper_inner.four .service_row.second {
+    order: 2;
+  }
+  .service_wraper_inner.four .service_row.first {
+    order: 3;
+  }
+  .service_wraper_inner.four .service_row.third {
+    order: 1;
+  }
+  .service_wraper_inner.five .service_row.second {
+    order: 1;
+    background-color: #fff;
+  }
+  .service_wraper_inner.five .service_row.second h3 {
+    color: #000;
+  }
+  .service_wraper_inner.five .service_row.first {
+    order: 2;
+  }
+}
