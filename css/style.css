@@ -91,6 +91,20 @@
   color: #fff;
 }
 
+.service_wraper_inner.second .service_row.second {
+  display: flex;
+}
+.service_wraper_inner.second .service_row.second .left {
+  width: 45%;
+}
+.service_wraper_inner.second .service_row.second .right {
+  width: calc(55% - 100px);
+  margin-left: 100px;
+}
+.service_wraper_inner.second .service_row.second .right img {
+  width: 100%;
+}
+
 .service_wraper_inner.third .service_row.second {
   grid-column-start: 1;
   grid-column-end: 2;
