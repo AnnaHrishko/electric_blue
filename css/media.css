@@ -1,3 +1,8 @@
+@media screen and (max-width: 1250px) {
+  .service_wraper_inner.six {
+    grid-template-rows: 1fr;
+  }
+}
 @media screen and (max-width: 1050px) {
   .service_wraper_inner.second .service_row.second .right {
     width: calc(55% - 40px);
