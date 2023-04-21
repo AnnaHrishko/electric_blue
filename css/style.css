@@ -170,5 +170,5 @@
 }
 
 .service_wraper_inner.six {
-  grid-template-rows: 220px;
+  grid-template-rows: 1fr;
 }

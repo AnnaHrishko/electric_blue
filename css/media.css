@@ -2,6 +2,9 @@
   .service_wraper_inner.six {
     grid-template-rows: 1fr;
   }
+  .service_wraper_inner.first .service_row.second {
+    padding-left: 40px;
+  }
 }
 @media screen and (max-width: 1050px) {
   .service_wraper_inner.second .service_row.second .right {
@@ -31,12 +34,6 @@
   .service_wraper_inner.first .service_row.second {
     padding-left: 50px;
   }
-  .service_wraper_inner.second .service_row.second .right {
-    width: calc(55% - 20px);
-    margin-left: 20px;
-  }
-}
-@media screen and (max-width: 768px) {
   .service_wraper_inner {
     display: flex;
     flex-direction: column;
@@ -45,14 +42,7 @@
   .service_wraper_inner .service_row {
     padding: 15px;
   }
-  .service_wraper_inner.first .service_row h2 {
-    font-size: 14px;
-  }
-  .service_wraper_inner.first .service_row p {
-    font-size: 14px;
-  }
   .service_wraper_inner.first .service_row.second {
-    padding: 15px;
     background-color: #000;
   }
   .service_wraper_inner.first .service_row.second p {
@@ -107,5 +97,19 @@
   }
   .service_wraper_inner.five .service_row.first {
     order: 2;
+  }
+}
+@media screen and (max-width: 768px) {
+  .service_wraper_inner .service_row {
+    padding: 15px;
+  }
+  .service_wraper_inner.first .service_row h2 {
+    font-size: 14px;
+  }
+  .service_wraper_inner.first .service_row p {
+    font-size: 14px;
+  }
+  .service_wraper_inner.first .service_row.second {
+    padding: 15px;
   }
 }
