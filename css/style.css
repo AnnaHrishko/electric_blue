@@ -26,6 +26,13 @@
   margin: 0 auto;
 }
 
+.container_career {
+  width: 1650px;
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .service_wraper_inner {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -171,4 +178,235 @@
 
 .service_wraper_inner.six {
   grid-template-rows: 1fr;
+}
+
+.career_page_sec2_vacancies {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-grow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 130px;
+}
+.career_page_sec2_vacancies .vacancies_row:nth-of-type(1) {
+  width: 297px;
+  height: 298px;
+}
+.career_page_sec2_vacancies .vacancies_row:nth-of-type(2) {
+  width: 137px;
+  height: 137px;
+}
+.career_page_sec2_vacancies .vacancies_row:nth-of-type(3) {
+  width: 274px;
+  height: 258px;
+}
+.career_page_sec2_vacancies .vacancies_row:nth-of-type(4) {
+  width: 297px;
+  height: 299px;
+}
+.career_page_sec2_vacancies .vacancies_row:nth-of-type(5) {
+  width: 83px;
+  height: 150px;
+}
+.career_page_sec2_vacancies .vacancies_row:nth-of-type(6) {
+  width: 274px;
+  height: 259px;
+  margin-left: auto;
+}
+.career_page_sec2_vacancies .vacancies_row:nth-of-type(7) {
+  width: 83px;
+  height: 150px;
+  margin-left: 75px;
+}
+.career_page_sec2_vacancies .vacancies_row:nth-of-type(8) {
+  width: 297px;
+  height: 298px;
+  margin-left: 75px;
+}
+
+.vacancies_row {
+  background: #000000;
+  padding: 33px 36px 28px 25px;
+}
+.vacancies_row a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  text-decoration: none;
+}
+.vacancies_row .work_type {
+  display: block;
+  font-family: "FuturaLight";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.vacancies_row .vacancies_name {
+  font-family: "FuturaDemiC";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.form_row {
+  margin-bottom: 40px;
+}
+.form_row input, .form_row textarea {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  color: #000;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  padding: 8px 0;
+  height: 40px !important;
+  outline: none;
+  font-family: "FuturaLight";
+}
+.form_row input::placeholder, .form_row textarea::placeholder {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000;
+}
+.form_row textarea {
+  resize: vertical;
+  height: 4rem;
+  min-height: 4rem;
+}
+
+.button_form {
+  font-size: 2rem;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+  padding: 10px 32px;
+  line-height: 1.3;
+  display: block;
+  width: 100%;
+}
+.button_form:hover {
+  background-color: transparent;
+  color: #000;
+}
+
+.career_page_sec1 {
+  display: flex;
+  margin-bottom: 80px;
+}
+.career_page_sec1 .career_description {
+  width: calc(50% - 40px);
+  margin-right: 40px;
+}
+.career_page_sec1 .career_form {
+  width: 50%;
+}
+
+.name_section {
+  font-family: "FuturaDemiC";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 115px;
+}
+
+.single_vacancies_wrap {
+  width: 40%;
+}
+.single_vacancies_wrap .heading_single_vacancies p {
+  margin-bottom: 0;
+}
+.single_vacancies_wrap div {
+  margin-bottom: 44px;
+}
+.single_vacancies_wrap h1 {
+  font-family: "FuturaDemiC";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.single_vacancies_wrap p {
+  font-family: "FuturaLight";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.single_vacancies_wrap p span {
+  font-family: "FuturaDemiC";
+  font-weight: 600;
+}
+.single_vacancies_wrap ul {
+  padding-left: 15px;
+}
+.single_vacancies_wrap ul li {
+  font-family: "FuturaLight";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.career_description h3 {
+  font-family: "FuturaDemiC";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 148.28%;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.career_description p, .career_description a {
+  font-family: "FuturaLight";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.career_description a {
+  text-decoration: underline;
+}
+
+.single_vacancies_page .section_position_right {
+  display: flex;
+  justify-content: flex-end;
+}
+.single_vacancies_page .w55 {
+  width: 55%;
+}
+.single_vacancies_page .w55 form {
+  width: 100%;
+}
+.single_vacancies_page .w55 .career_description {
+  margin-bottom: 40px;
+}
+
+input.error {
+  border-bottom: 1px solid red;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
 }
